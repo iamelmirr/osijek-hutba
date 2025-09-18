@@ -1,0 +1,95 @@
+// Minimalni UI stringovi za 6 jezika.
+const strings = {
+  hr: {
+    language: 'Jezik',
+    chooseLanguage: 'Odaberi jezik',
+    latestKhutbah: 'Najnovija hutba',
+    archive: 'Arhiva',
+    readMore: 'Pročitaj',
+    publish: 'Objavi',
+    title: 'Naslov (hr)',
+    content: 'Tekst (hr)',
+    adminPassword: 'Admin lozinka',
+    publishing: 'Objavljujem…',
+    translating: 'Prevodim…',
+    published: 'Objavljeno!',
+    tryAgain: 'Pokušaj ponovo'
+  },
+  en: {
+    language: 'Language',
+    chooseLanguage: 'Choose language',
+    latestKhutbah: 'Latest khutbah',
+    archive: 'Archive',
+    readMore: 'Read more',
+    publish: 'Publish',
+    title: 'Title (hr)',
+    content: 'Content (hr)',
+    adminPassword: 'Admin password',
+    publishing: 'Publishing…',
+    translating: 'Translating…',
+    published: 'Published!',
+    tryAgain: 'Try again'
+  },
+  ar: {
+    language: 'اللغة',
+    chooseLanguage: 'اختر اللغة',
+    latestKhutbah: 'الخطبة الأحدث',
+    archive: 'الأرشيف',
+    readMore: 'اقرأ المزيد',
+    publish: 'نشر',
+    title: 'العنوان (بالكرواتية)',
+    content: 'النص (بالكرواتية)',
+    adminPassword: 'كلمة مرور المشرف',
+    publishing: 'جاري النشر…',
+    translating: 'جاري الترجمة…',
+    published: 'تم النشر!',
+    tryAgain: 'حاول مرة أخرى'
+  },
+  sq: {
+    language: 'Gjuha',
+    chooseLanguage: 'Zgjidh gjuhën',
+    latestKhutbah: 'Hutbe më e fundit',
+    archive: 'Arkiva',
+    readMore: 'Lexo më shumë',
+    publish: 'Publiko',
+    title: 'Titulli (hr)',
+    content: 'Përmbajtja (hr)',
+    adminPassword: 'Fjalëkalimi i adminit',
+    publishing: 'Duke publikuar…',
+    translating: 'Duke përkthyer…',
+    published: 'U publikua!',
+    tryAgain: 'Provo përsëri'
+  },
+  bn: {
+    language: 'ভাষা',
+    chooseLanguage: 'ভাষা নির্বাচন করুন',
+    latestKhutbah: 'সর্বশেষ খুতবা',
+    archive: 'আর্কাইভ',
+    readMore: 'আরও পড়ুন',
+    publish: 'প্রকাশ করুন',
+    title: 'শিরোনাম (hr)',
+    content: 'বিষয়বস্তু (hr)',
+    adminPassword: 'অ্যাডমিন পাসওয়ার্ড',
+    publishing: 'প্রকাশ করা হচ্ছে…',
+    translating: 'অনুবাদ করা হচ্ছে…',
+    published: 'প্রকাশিত!',
+    tryAgain: 'আবার চেষ্টা করুন'
+  },
+  ur: {
+    language: 'زبان',
+    chooseLanguage: 'زبان منتخب کریں',
+    latestKhutbah: 'تازہ ترین خطبہ',
+    archive: 'آرکائیو',
+    readMore: 'مزید پڑھیں',
+    publish: 'شائع کریں',
+    title: 'عنوان (hr)',
+    content: 'مواد (hr)',
+    adminPassword: 'ایڈمن پاس ورڈ',
+    publishing: 'شائع کیا جا رہا ہے…',
+    translating: 'ترجمہ کیا جا رہا ہے…',
+    published: 'شائع ہوگیا!',
+    tryAgain: 'دوبارہ کوشش کریں'
+  }
+} as const;
+
+export default strings;
