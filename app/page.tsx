@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { supabaseClient } from '../src/lib/supabaseClient';
 import HutbaCard, { HutbaRow } from '../src/components/HutbaCard';
 import { useLanguage } from '../src/providers/LanguageProvider';
@@ -42,13 +43,13 @@ export default function HomePage() {
       {latest && (
         <section className="border rounded-xl p-5 bg-gray-50">
           <div className="text-sm text-gray-500">{t.latestKhutbah}</div>
-          <a href={`/hutba/${latest.id}`} className="block mt-2">
+          <Link href={`/hutba/${latest.id}`} className="block mt-2">
             <h2 className="text-2xl font-semibold">{latest.title[lang] ?? latest.title.hr}</h2>
-          </a>
+          </Link>
           <div className="mt-3">
-            <a href={`/hutba/${latest.id}`} className="text-blue-600 hover:underline">
+            <Link href={`/hutba/${latest.id}`} className="text-blue-600 hover:underline">
               {t.readMore}
-            </a>
+            </Link>
           </div>
         </section>
       )}
@@ -58,12 +59,12 @@ export default function HomePage() {
         ))}
       </section>
       <div className="pt-2">
-        <a
+        <Link
           href="/archive"
           className="inline-block border rounded px-4 py-2 hover:bg-gray-50 text-sm"
         >
           {t.archive}
-        </a>
+        </Link>
       </div>
     </div>
   );

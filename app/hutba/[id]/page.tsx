@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { supabaseClient } from '../../../src/lib/supabaseClient';
 import { LangCode } from '../../../src/lib/i18n';
 import { useLanguage } from '../../../src/providers/LanguageProvider';
@@ -61,9 +62,9 @@ export default function HutbaPage({ params }: { params: { id: string } }) {
       <h1 className="mt-1 text-3xl font-bold">{title}</h1>
       <div className="whitespace-pre-wrap mt-4 text-[1.05rem] leading-7">{content}</div>
       <div className="mt-6">
-        <a href="/" className="text-blue-600 hover:underline">
+        <Link href="/" className="text-blue-600 hover:underline">
           ← {t.latestKhutbah}
-        </a>
+        </Link>
       </div>
     </article>
   );
