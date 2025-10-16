@@ -13,7 +13,14 @@ const strings = {
     publishing: 'Objavljujem…',
     translating: 'Prevodim…',
     published: 'Objavljeno!',
-    tryAgain: 'Pokušaj ponovo'
+    tryAgain: 'Pokušaj ponovo',
+    publishNew: 'Objavi novu',
+    manageKhutbas: 'Upravljaj hutbama',
+    delete: 'Obriši',
+    confirmDelete: 'Jesi li siguran?',
+    deleting: 'Brišem…',
+    deleted: 'Obrisano!',
+    noKhutbas: 'Nema hutbi'
   },
   en: {
     language: 'Language',
@@ -28,7 +35,14 @@ const strings = {
     publishing: 'Publishing…',
     translating: 'Translating…',
     published: 'Published!',
-    tryAgain: 'Try again'
+    tryAgain: 'Try again',
+    publishNew: 'Publish New',
+    manageKhutbas: 'Manage Khutbahs',
+    delete: 'Delete',
+    confirmDelete: 'Are you sure?',
+    deleting: 'Deleting…',
+    deleted: 'Deleted!',
+    noKhutbas: 'No khutbahs'
   },
   ar: {
     language: 'اللغة',
@@ -43,7 +57,14 @@ const strings = {
     publishing: 'جاري النشر…',
     translating: 'جاري الترجمة…',
     published: 'تم النشر!',
-    tryAgain: 'حاول مرة أخرى'
+    tryAgain: 'حاول مرة أخرى',
+    publishNew: 'نشر جديد',
+    manageKhutbas: 'إدارة الخطب',
+    delete: 'حذف',
+    confirmDelete: 'هل أنت متأكد؟',
+    deleting: 'جاري الحذف…',
+    deleted: 'تم الحذف!',
+    noKhutbas: 'لا توجد خطب'
   },
   sq: {
     language: 'Gjuha',
@@ -58,7 +79,14 @@ const strings = {
     publishing: 'Duke publikuar…',
     translating: 'Duke përkthyer…',
     published: 'U publikua!',
-    tryAgain: 'Provo përsëri'
+    tryAgain: 'Provo përsëri',
+    publishNew: 'Publiko të Re',
+    manageKhutbas: 'Menaxho Hutbet',
+    delete: 'Fshi',
+    confirmDelete: 'A je i sigurt?',
+    deleting: 'Duke fshirë…',
+    deleted: 'U fshi!',
+    noKhutbas: 'Nuk ka hutbe'
   },
   bn: {
     language: 'ভাষা',
@@ -73,7 +101,14 @@ const strings = {
     publishing: 'প্রকাশ করা হচ্ছে…',
     translating: 'অনুবাদ করা হচ্ছে…',
     published: 'প্রকাশিত!',
-    tryAgain: 'আবার চেষ্টা করুন'
+    tryAgain: 'আবার চেষ্টা করুন',
+    publishNew: 'নতুন প্রকাশ করুন',
+    manageKhutbas: 'খুতবা পরিচালনা করুন',
+    delete: 'মুছুন',
+    confirmDelete: 'আপনি কি নিশ্চিত?',
+    deleting: 'মুছে ফেলা হচ্ছে…',
+    deleted: 'মুছে ফেলা হয়েছে!',
+    noKhutbas: 'কোন খুতবা নেই'
   },
   ur: {
     language: 'زبان',
@@ -88,7 +123,14 @@ const strings = {
     publishing: 'شائع کیا جا رہا ہے…',
     translating: 'ترجمہ کیا جا رہا ہے…',
     published: 'شائع ہوگیا!',
-    tryAgain: 'دوبارہ کوشش کریں'
+    tryAgain: 'دوبارہ کوشش کریں',
+    publishNew: 'نیا شائع کریں',
+    manageKhutbas: 'خطبات کا انتظام کریں',
+    delete: 'حذف کریں',
+    confirmDelete: 'کیا آپ کو یقین ہے؟',
+    deleting: 'حذف ہو رہا ہے…',
+    deleted: 'حذف ہو گیا!',
+    noKhutbas: 'کوئی خطبہ نہیں'
   }
 } as const;
 

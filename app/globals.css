@@ -78,6 +78,15 @@ button:focus-visible {
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.35); /* blue-500 */
 }
 
+/* Delete button specific styling */
+button.bg-red-50 {
+  transition: all 150ms ease;
+}
+button.bg-red-50:hover:not(:disabled) {
+  background-color: #fecaca; /* red-200 */
+  border-color: #fca5a5; /* red-300 */
+}
+
 /* Links general (content areas) */
 a:focus-visible {
   outline: none;
